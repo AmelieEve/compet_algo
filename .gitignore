@@ -1,0 +1,46 @@
+### C++ template
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# cmake build files
+**/cmake/build/
+
+# Visual Studio Code artifacts
+.cache/*
+.vscode/*
+.history/
+
+# Clion artifacts
+cmake-build-debug/
+
+# User-specific stuff:
+.idea/
+
+## File-based project format:
+*.iws
