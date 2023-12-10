@@ -26,3 +26,6 @@ add_executable(forest_queries
 
 add_executable(factory_machines
         factoryMachines.cpp)
+
+add_executable(increasing_subsequences
+        increasingSubsequences.cpp)
