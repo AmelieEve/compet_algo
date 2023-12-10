@@ -29,3 +29,6 @@ add_executable(factory_machines
 
 add_executable(increasing_subsequences
         increasingSubsequences.cpp)
+
+add_executable(range_minimum_queries_II
+        rangeMinimumQueries2.cpp)

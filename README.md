@@ -12,8 +12,8 @@ Problems solved during an "algorithmic competition" lecture.
 | OK     | [Range xor queries](https://cses.fi/problemset/task/1650)             | Like range computing seen in lecture     |
 | OK     | [Forest queries](https://cses.fi/problemset/task/1652/)               | Like matrix computing seen in lecture    |
 | OK     | [Factory machines](https://cses.fi/problemset/task/1620)              | Binary search                            |
-| OK     | [Increasing subsequences](https://cses.fi/problemset/task/1145/)      | Segment tree                             |
-|        | Range minimum queries II                                              |                                          |
+| OK     | [Increasing subsequences](https://cses.fi/problemset/task/1145/)      | DP                                       |
+| OK     | [Range minimum queries II](https://cses.fi/problemset/task/1649/)     | Segment tree                             |
 |        | Exams                                                                 | Binary search                            |
 |        | Pruball                                                               |                                          |
 |        | Flipping coins                                                        | Segment tree                             |
