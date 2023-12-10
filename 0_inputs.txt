@@ -1,0 +1,107 @@
+Yet another number game
+
+_____
+Virtual friends
+INPUT
+1
+3
+Fred Barney
+Barney Betty
+Betty Wilma
+--
+OUTPUT
+2
+3
+4
+
+_____
+Coin Combinations I
+INPUT
+3 9
+2 3 5
+OUTPUT
+8
+
+_____
+Grid paths
+INPUT
+4
+....
+.*..
+...*
+*...
+OUTPUT
+3
+
+_____
+Sum of three values
+INPUT
+4 8
+2 7 5 1
+OUTPUT
+1 3 4
+
+INPUT
+7 4
+1 1 2 2 1 2 1
+OUTPUT
+1 2 3
+
+INPUT
+7 5
+1 2 1 2 2 1 1
+OUTPUT
+1 2 4
+
+INPUT
+7 3
+2 1 1 2 2 1 1
+OUTPUT
+2 3 6
+
+_____
+Range xor queries
+INPUT
+8 4
+3 2 4 5 1 1 5 3
+2 4
+5 6
+1 8
+3 3
+OUTPUT
+3
+0
+6
+4
+
+_____
+Forest queries
+INPUT
+4 3
+.*..
+*.**
+**..
+****
+2 2 3 4
+3 1 3 1
+1 1 2 2
+OUTPUT
+3
+1
+2
+
+_____
+Factory machines
+INPUT
+3 7
+3 2 5
+OUTPUT
+8
+
+_____
+Increasing subsequences
+INPUT
+8
+7 3 5 3 6 2 9 8
+OUTPUT
+4
