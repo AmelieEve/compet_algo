@@ -2,6 +2,8 @@
 
 Problems solved during an "algorithmic competition" lecture.
 
+| Status | Problem |
+| -------|------------------------------------------------------------------------|
 | OK | Yet another number game (matches problem) |
 | OK | Virtual friends (union find) |
 | OK | Coin combinations I (DP) |
