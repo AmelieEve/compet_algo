@@ -14,12 +14,12 @@ Problems solved during an "algorithmic competition" lecture.
 | OK     | [Factory machines](https://cses.fi/problemset/task/1620)              | Binary search                            |
 | OK     | [Increasing subsequences](https://cses.fi/problemset/task/1145/)      | DP                                       |
 | OK     | [Range minimum queries II](https://cses.fi/problemset/task/1649/)     | Segment tree                             |
-|        | Exams                                                                 | Binary search                            |
-|        | Pruball                                                               |                                          |
+| OK     | [Exams](https://codeforces.com/contest/732/problem/D)                 | Binary search                            |
+|        | PruBall                                                               | DP hard                                  |
 |        | Flipping coins                                                        | Segment tree                             |
-|        | Almost union find                                                     |                                          |
+|        | Almost union find                                                     | Union find hard                          |
 |        | Bar codes                                                             | DP                                       |
-|        | Count rooms                                                           | DFS/BFS                                  |
+|        | [Counting rooms](https://cses.fi/problemset/task/1192/)               | DFS/BFS                                  |
 |        | Labyrinth                                                             | DFS/BFS                                  |
 |        | Monsters                                                              | DFS/BFS (do this one first)              |
 |        | Ones and zeroes                                                       | DFS/BFS                                  |

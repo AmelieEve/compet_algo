@@ -32,3 +32,5 @@ add_executable(increasing_subsequences
 
 add_executable(range_minimum_queries_II
         rangeMinimumQueries2.cpp)
+
+add_executable(exams exams.cpp)
