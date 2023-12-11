@@ -16,7 +16,7 @@ Problems solved during an "algorithmic competition" lecture.
 | OK     | [Range minimum queries II](https://cses.fi/problemset/task/1649/)     | Segment tree                             |
 | OK     | [Exams](https://codeforces.com/contest/732/problem/D)                 | Binary search                            |
 |        | PruBall                                                               | DP hard                                  |
-|        | Flipping coins                                                        | Segment tree                             |
+| OK     | [Flipping coins](https://www.codechef.com/problems/FLIPCOIN)          | Segment tree                             |
 |        | Almost union find                                                     | Union find hard                          |
 |        | Bar codes                                                             | DP                                       |
 |        | [Counting rooms](https://cses.fi/problemset/task/1192/)               | DFS/BFS                                  |
