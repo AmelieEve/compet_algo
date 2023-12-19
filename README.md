@@ -20,6 +20,6 @@ Problems solved during an "algorithmic competition" lecture.
 |        | Almost union find                                                     | Union find hard                          |
 |        | Bar codes                                                             | DP                                       |
 | OK     | [Counting rooms](https://cses.fi/problemset/task/1192/)               | DFS/BFS                                  |
-|        | Labyrinth                                                             | DFS/BFS                                  |
-| ~OK    | Monsters                                                              | DFS/BFS (do this one first)              |
+| OK     | [Labyrinth](https://cses.fi/problemset/task/1193/)                    | DFS/BFS                                  |
+| ~OK    | [Monsters](https://cses.fi/problemset/task/1194/)                     | DFS/BFS (do this one first)              |
 |        | Ones and zeroes                                                       | DFS/BFS                                  |

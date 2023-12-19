@@ -67,7 +67,7 @@ void solve_monsters(const vector<string>& grid) {
             for (auto delta : vector<pii>{{0,-1},{0,1},{-1,0},{1,0}}) {
                 pii nxt = cur + delta;
 
-                // If we are in the grid bounds, not running into a wall, and not running into an (other) monster
+                // If we are in the grid bounds, not running into a wall, and not going to an already visited case
                 if (nxt.first >= 0 && nxt.first < N && nxt.second >= 0 && nxt.second <M &&
                 grid[nxt.first][nxt.second] != '#' && m[nxt.first][nxt.second] == INF) {
                     q.push(nxt);

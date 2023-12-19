@@ -186,3 +186,17 @@ OUTPUT
 YES
 5
 RRDDR
+
+_____
+Labyrinth
+INPUT
+5 8
+########
+#.A#...#
+#.##.#B#
+#......#
+########
+OUTPUT
+YES
+9
+LDDRRRRRU
