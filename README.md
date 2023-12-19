@@ -29,14 +29,14 @@ Practical works
 
 Previous year
 
-| Status | Problem  | Note       |
-|--------|----------|------------|
-| OK     | Problem1 |            |
-| OK     | Problem2 |            |
-| OK     | Problem3 | Union find |
-| OK     | Problem4 | Dijkstra   |
-|        | Problem5 |            |
-| OK     | Problem6 |            |
-|        | Problem7 |            | 
-|        | Problem8 |            | 
-|        | Problem9 |            | 
+| Status | Problem  | Note                         |
+|--------|----------|------------------------------|
+| OK     | Problem1 |                              |
+| OK     | Problem2 |                              |
+| OK     | Problem3 | Union find                   |
+| OK     | Problem4 | Dijkstra                     |
+| OK     | Problem5 | Segment tree + binary search |
+| OK     | Problem6 |                              |
+|        | Problem7 |                              | 
+|        | Problem8 |                              | 
+|        | Problem9 |                              | 

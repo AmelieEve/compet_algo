@@ -536,7 +536,29 @@ void problem4() {
 void problem5() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    // TO DO
+    int n;
+    cin >> n;
+    vector<int> heights(n);
+    for(auto& h : heights) cin >> h;
+    segment_tree<int> st(heights);
+    auto possible = [&](int l) -> bool {
+        for (int i = 0; i + l <= n; i++) {
+            if (st.get_min(i, i + l - 1) >= l) return true;
+        }
+        return false;
+    };
+    int lo = 1, hi = n;
+    int l = 1;
+    while (lo <= hi) {
+        int m = lo + (hi - lo) / 2;
+        if (possible(m)) {
+            l = m;
+            lo = m + 1;
+        } else {
+            hi = m - 1;
+        }
+    }
+    cout << l << '\n';
     cout.flush();
 }
 
