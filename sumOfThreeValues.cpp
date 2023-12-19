@@ -4,9 +4,51 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <functional>
 using namespace std;
 
+int solve_sum_of_three_values(int n, int x, vector<pair<int, int>> values) {
+    for (int i = 0; i < n - 1; i++) {
+        int start = i+1;
+        int end = n-1;
+        int target = x - values[i].first;
+
+        while(start < end) {
+            int sum = values[start].first + values[end].first;
+            if(sum == target) {
+                cout << values[start].second << " " << values[i].second << " " << values[end].second << endl;
+                return 0;
+            }
+            else if(sum > target) {
+                end--;
+            }
+            else {
+                start++;
+            }
+        }
+    }
+    cout << "IMPOSSIBLE" << endl;
+    return 0;
+}
+
+int main() {
+    int n, x;
+    cin >> n >> x;
+
+    vector<pair<int, int>> values;
+    int v;
+    for(int i = 0; i < n; i++) {
+        cin >> v;
+        values.push_back({v,i+1});
+    }
+
+    sort(values.begin(), values.end());
+
+    solve_sum_of_three_values(n,x,values);
+
+    return 0;
+}
+
+#if 0
 void solve_sum_of_three_values(int x, vector<int> &terms, vector<int> &res) {
     if(terms.size() < 3) return;
     vector<int> sortedTerms(terms);
@@ -78,6 +120,7 @@ int main() {
 
     return 0;
 }
+#endif
 
 #if 0
 void solve_sum_of_three_values_beta(int x, vector<int> &terms, vector<int> &res) {
