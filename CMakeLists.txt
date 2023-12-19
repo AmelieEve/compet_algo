@@ -3,42 +3,18 @@ project(compet_algo)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(yet_another_number_game
-        yetAnotherNumberGame.cpp)
-
-add_executable(virtual_friends
-        virtualFriends.cpp)
-
-add_executable(coins_combinations_I
-        coinsCombinations1.cpp)
-
-add_executable(grid_paths
-        gridPaths.cpp)
-
-add_executable(sum_of_three_values
-        sumOfThreeValues.cpp)
-
-add_executable(range_xor_queries
-        rangeXorQueries.cpp)
-
-add_executable(forest_queries
-        forestQueries.cpp)
-
-add_executable(factory_machines
-        factoryMachines.cpp)
-
-add_executable(increasing_subsequences
-        increasingSubsequences.cpp)
-
-add_executable(range_minimum_queries_II
-        rangeMinimumQueries2.cpp)
-
-add_executable(exams
-        exams.cpp)
-
-add_executable(flipping_coins
-        flippingCoins.cpp)
-
+add_executable(yet_another_number_game yetAnotherNumberGame.cpp)
+add_executable(virtual_friends virtualFriends.cpp)
+add_executable(coins_combinations_I coinsCombinations1.cpp)
+add_executable(grid_paths gridPaths.cpp)
+add_executable(sum_of_three_values sumOfThreeValues.cpp)
+add_executable(range_xor_queries rangeXorQueries.cpp)
+add_executable(forest_queries forestQueries.cpp)
+add_executable(factory_machines factoryMachines.cpp)
+add_executable(increasing_subsequences increasingSubsequences.cpp)
+add_executable(range_minimum_queries_II rangeMinimumQueries2.cpp)
+add_executable(exams exams.cpp)
+add_executable(flipping_coins flippingCoins.cpp)
 add_executable(rijeci competition_11-dec/rijeci.cpp)
 add_executable(poker_hand competition_11-dec/poker_hand.cpp)
 add_executable(tower_construction competition_11-dec/tower_construction.cpp)
@@ -47,3 +23,4 @@ add_executable(line_them_up competition_11-dec/line_them_up.cpp)
 add_executable(drunk_vigenere competition_11-dec/drunk_vigenere.cpp)
 add_executable(magic_trick competition_11-dec/magic_trick.cpp)
 add_executable(ladice competition_11-dec/ladice.cpp)
+add_executable(counting_rooms countingRooms.cpp)

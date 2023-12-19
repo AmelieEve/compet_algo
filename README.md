@@ -19,7 +19,7 @@ Problems solved during an "algorithmic competition" lecture.
 | OK     | [Flipping coins](https://www.codechef.com/problems/FLIPCOIN)          | Segment tree                             |
 |        | Almost union find                                                     | Union find hard                          |
 |        | Bar codes                                                             | DP                                       |
-|        | [Counting rooms](https://cses.fi/problemset/task/1192/)               | DFS/BFS                                  |
+| OK     | [Counting rooms](https://cses.fi/problemset/task/1192/)               | DFS/BFS                                  |
 |        | Labyrinth                                                             | DFS/BFS                                  |
 |        | Monsters                                                              | DFS/BFS (do this one first)              |
 |        | Ones and zeroes                                                       | DFS/BFS                                  |
