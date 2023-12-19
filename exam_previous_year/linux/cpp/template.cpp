@@ -510,7 +510,22 @@ void problem5() {
 void problem6() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    // TO DO
+
+    string s, p;
+    cin >> s >> p;
+    int n;
+    cin >> n;
+
+    int count = 0;
+    for(int chunk = 0; chunk < 16; chunk++) {
+        string chunk_s = s.substr(4*chunk, 4);
+        if(p.compare(chunk_s) == 0) {
+            count++;
+        }
+    }
+
+    cout << count*n << endl;
+
     cout.flush();
 }
 

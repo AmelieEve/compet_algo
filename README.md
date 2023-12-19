@@ -34,9 +34,9 @@ Previous year
 | OK     | Problem1 |            |
 | OK     | Problem2 |            |
 | OK     | Problem3 | Union find |
-|        | Problem4 |            |
+|        | Problem4 | BFS        |
 |        | Problem5 |            |
-|        | Problem6 |            |
+| OK     | Problem6 |            |
 |        | Problem7 |            | 
 |        | Problem8 |            | 
 |        | Problem9 |            | 
