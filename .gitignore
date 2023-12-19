@@ -44,3 +44,5 @@ cmake-build-debug/
 
 ## File-based project format:
 *.iws
+
+/exam_previous_year/linux/py/*
