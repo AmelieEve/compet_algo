@@ -34,7 +34,7 @@ Previous year
 | OK     | Problem1 |            |
 | OK     | Problem2 |            |
 | OK     | Problem3 | Union find |
-|        | Problem4 | BFS        |
+| OK     | Problem4 | Dijkstra   |
 |        | Problem5 |            |
 | OK     | Problem6 |            |
 |        | Problem7 |            | 

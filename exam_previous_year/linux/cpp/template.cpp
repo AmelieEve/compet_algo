@@ -456,7 +456,58 @@ void problem3() {
 void problem4() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    // TO DO
+    using pii = pair<int, int>;
+    struct node {
+        int i;
+        int j;
+        int super_power;
+        int cost;
+        node(int i = 0, int j = 0, int sup = 0, int c = 0) : i{i}, j{j}, super_power{sup}, cost{c} {}
+        bool operator>(const node& n) const {
+            return cost > n.cost;
+        }
+    };
+    int n;
+    cin >> n;
+    vector<string> grid(n);
+    int ai, aj;
+    for (int i = 0; i < n; i++) {
+        cin >> grid[i];
+        for (int j = 0; j < n; j++) {
+            if (grid[i][j] == 'A') ai = i, aj = j;
+        }
+    }
+    int nsup;
+    cin >> nsup;
+    int csup;
+    cin >> csup;
+    auto possible = [&](int i, int j) {
+        return i >= 0 && i < n && j >= 0 && j < n;
+    };
+    auto dijkstra = [&] {
+        set<tuple<int, int, int>> visited;
+        priority_queue<node, vector<node>, greater<node>> q;
+        q.emplace(ai, aj, nsup, 0);
+        while (!q.empty()) {
+            auto [i, j, sup_left, cost] = q.top(); q.pop();
+            if (grid[i][j] == 'X') return cost;
+            if (visited.count({i, j, sup_left})) continue;
+            visited.emplace(i, j, sup_left);
+            for (pii delta : vector<pii>{{-1, 0}, {1, 0}, {0, -1}, {0, 1}}) {
+                int ii = i + delta.first;
+                int jj = j + delta.second;
+                if (!possible(ii, jj)) continue;
+                if (grid[ii][jj] == '#') {
+                    if (sup_left == 0) continue;
+                    q.emplace(ii, jj, sup_left - 1, cost + csup);
+                } else {
+                    q.emplace(ii, jj, sup_left, cost + 1);
+                }
+            }
+        }
+        return -1;
+    };
+    cout << dijkstra() << '\n';
     cout.flush();
 }
 
