@@ -200,3 +200,12 @@ OUTPUT
 YES
 9
 LDDRRRRRU
+
+______
+Bar codes
+INPUT
+7 4 3
+7 4 2
+OUTPUT
+16
+4
