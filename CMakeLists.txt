@@ -38,3 +38,12 @@ add_executable(exams
 
 add_executable(flipping_coins
         flippingCoins.cpp)
+
+add_executable(rijeci competition_11-dec/rijeci.cpp)
+add_executable(poker_hand competition_11-dec/poker_hand.cpp)
+add_executable(tower_construction competition_11-dec/tower_construction.cpp)
+add_executable(increasing_subseq competition_11-dec/increasing_subseq.cpp)
+add_executable(line_them_up competition_11-dec/line_them_up.cpp)
+add_executable(drunk_vigenere competition_11-dec/drunk_vigenere.cpp)
+add_executable(magic_trick competition_11-dec/magic_trick.cpp)
+add_executable(ladice competition_11-dec/ladice.cpp)
