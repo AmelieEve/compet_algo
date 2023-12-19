@@ -172,3 +172,17 @@ INPUT
 ########
 OUTPUT
 3
+
+_____
+Monsters
+INPUT
+5 8
+########
+#M..A..#
+#.#.M#.#
+#M#..#..
+#.######
+OUTPUT
+YES
+5
+RRDDR
