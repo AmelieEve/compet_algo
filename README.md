@@ -1,6 +1,6 @@
 # Algorithmic competition
 
-Problems solved during an "algorithmic competition" lecture.
+Problems solved during a competitive programming lecture.
 
 Practical works
 
