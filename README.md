@@ -1,4 +1,4 @@
-# Algorithmic competition
+# Competitive programming
 
 Problems solved during a competitive programming lecture.
 
